@@ -1,0 +1,10 @@
+
+POST http://localhost:3000/product/createproduct
+Content-Type: application/json 
+
+{
+    "productName":"angular",
+    "version":"4",
+    "price":"5000",
+    "description":"angular"
+}
